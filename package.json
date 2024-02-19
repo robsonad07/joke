@@ -1,0 +1,15 @@
+{
+  "name": "joke",
+  "version": "1.0.0",
+  "description": "Project utilizing the JokeAPI to create a website that generates jokes based on the user's name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robsonad07"
+  },
+  "author": "Robson Diógenes",
+  "license": "ISC"
+}
