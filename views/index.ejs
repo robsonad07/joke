@@ -10,13 +10,15 @@
   <div class="main">
     <h3>Write your name</h3>
     <form method="post">
-      <input class="input" type="text" name="name" placeholder="write here ......">
-      <input class="btn" type="submit" value="generate joke">
+      <input class="input" type="text" name="name" placeholder="write here ......" required>
+      <input class="btn" type="submit" value="generate joke" formaction="/joke">
     </form>
     <div class="joke">
-      <h3>
-        waiting ...
-      </h3>
+      <% if(locals.joke) { %>
+        <h3>
+          <%= joke %>
+        </h3>
+      <% } %>  
     </div>
   </div>
 </body>
