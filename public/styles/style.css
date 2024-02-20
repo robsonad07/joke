@@ -1,0 +1,65 @@
+/* Reset de estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo da div .main */
+.main {
+  text-align: center;
+  width: 80%; /* Mudança para responsividade */
+  max-width: 600px; /* Limitando a largura máxima */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+.main h3 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilo dos inputs */
+.main .input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+/* Estilo do botão */
+.main .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover no botão */
+.main .btn:hover {
+  background-color: #0056b3;
+}
+
+.joke {
+  margin-top: 25px;
+}

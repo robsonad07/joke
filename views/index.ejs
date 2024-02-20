@@ -4,13 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>joke</title>
+  <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <div>
+  <div class="main">
     <h3>Write your name</h3>
     <form method="post">
-      <input type="text" name="name">
+      <input class="input" type="text" name="name" placeholder="write here ......">
+      <input class="btn" type="submit" value="generate joke">
     </form>
+    <div class="joke">
+      <h3>
+        waiting ...
+      </h3>
+    </div>
   </div>
 </body>
 </html>
